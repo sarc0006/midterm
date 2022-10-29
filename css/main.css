@@ -178,7 +178,7 @@ img{
     margin-top: 24px;
     margin-right: 22px;
     margin-left: 10px;
-    font-size: 16x;
+    font-size: 16px;
     line-height: 1.4;
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -243,7 +243,7 @@ input {
     width: 970px;
     height: 29px;
     border: 1px #cccccc;
-    background-color: none;
+    background: white;
     position: relative;
     margin-left: 16px;
 }
@@ -253,7 +253,7 @@ input {
     width: 970px;
     height: 98px;
     border: 1px #cccccc;
-    background-color: none;
+    background: white;
     position: relative;
     margin-left: 16px;
  }
