@@ -70,6 +70,31 @@ body {
 =======================*/
 
 h1 {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 65px;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    top: 48px;
+}
+
+.wide {
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-left: 0px;
+    margin-right: 10px;
+    margin-top: -20px;
+    margin-bottom: 5px;
+}
+
+/*=========================
+
+ALTERNATIVELY
+
+h1 {
     background-color: white;
     background: no-repeat;
     background-image: url(../images/lone-starfish-wide.jpg);
@@ -79,11 +104,7 @@ h1 {
     color: white;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-/*==========================
-
-ALTERNATIVELY 
+} 
 
 button {
     font-size: 26.06px;
@@ -117,14 +138,15 @@ button {
 =================================
 */
 
-nav .navigation{
+nav .navigation {
+    position: relative;
     display: flex;
     justify-content: space-around;
     flex-flow: row wrap;
 /*    margin: -10px 0 0 ; */
   }
   
-.nav-list{
+.nav-list {
     flex: 1 1 auto;
     position: relative;
     text-align: center;
@@ -139,24 +161,29 @@ nav .navigation{
     cursor: pointer;
   }
 
-.nav-list + .nav-list{
+.nav-list + .nav-list {
     border-left: solid 1px black;
 }
 
-a:link{
+a:link {
     color: black;
     text-decoration: none;
 }
 
-a:visited{
+a:visited {
     color: black;
+}
+
+.navigation {
+    margin-top: -60px;
+    margin-bottom: -5px;
 }
 
 /* ====================
        MAIN STYLES 
 =======================*/
 
-img{
+img {
     width: 250px;
     height: 257px;
     float: left;
@@ -167,14 +194,14 @@ img{
     position: relative;
   }
 
-.title{
+.title {
     padding-top: 53px;
     margin-left: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 35.11px;
 } 
 
-.content{
+.content {
     margin-top: 24px;
     margin-right: 21px;
     margin-left: 10px;
@@ -183,14 +210,14 @@ img{
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.facts{
+.facts {
     padding-top: 34px;
     margin-left: 12px;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 29.76px;
 }
 
-.fact-list{
+.fact-list {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15.78px;
     margin-top: 19px;
@@ -198,7 +225,7 @@ img{
     list-style-type: disc;
 }
 
-.contact{
+.contact {
     padding-top: 34px;
     margin-left: 12px;
     margin-bottom: 19px;
